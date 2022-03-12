@@ -1,0 +1,180 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/*
+  ================== Base Styles ==================
+*/
+
+/* --primary-color: rgba(144,204,144,1);
+--secondary-color: rgba(119,195,236,1); */
+
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #4e91bd;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+/*
+  ================== Layout Styles ==================
+*/
+
+/* ----------------- header ----------------- */
+
+.primary-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  background: #76c2eb;
+  
+  padding: .5rem;
+  border-bottom: .2rem solid #4e91bd;
+}
+
+/* this allows everything to be centered within the header, its more dynamic for when new things are added */
+.width {
+  width: 33.3333%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----------------- main ----------------- */
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 45%;
+  
+    background: #c7ffc8;
+    margin: 2rem;
+    padding: 1rem 1rem 1rem 2rem;
+  
+    border: .2rem solid #8eca8f;
+    border-radius: .5rem;
+}
+
+
+/*
+  ================== Additional Styles ==================
+*/
+
+/* ----------------- header ----------------- */
+
+/* - - - - - - left section - - - - - */
+#discord {
+  width: 3.5rem;
+  margin-right: 1rem;
+}
+
+.discord-link {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+/* - - - - - - middle section - - - - - */
+
+.live-button {
+  width: .7rem;
+  height: .7rem;
+  border-radius: 50%;
+  background: red;
+  animation: blink 1s ease infinite;
+}
+
+@keyframes blink {
+  0% {
+    background: darkred;
+  }
+  100% {
+    background: red;
+  }
+}
+
+/* - - - - - - right section - - - - - */
+
+#search {
+  padding: 1rem;
+  border: .2rem solid #4e91bd;
+  width: 60%;
+}
+
+
+/* ----------------- main ----------------- */
+
+
+/* - - - - - - video - - - - - - */
+
+.video {
+    border-radius: .5rem;
+}
+
+
+/* - - - - - - homework - - - - - - */
+.homework-container {
+    padding: 2rem;
+}
+
+.class-title {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+.assignment-list {
+    font-size: 1.5rem;
+}
+
+.due {
+  font-size: 1.5rem;
+}
+
+.due-date {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
+
+/* ----------------- footer ----------------- */
+
+.primary-footer {
+  font-size: 1.2rem;
+  text-align: center;
+  
+  padding: 1rem 0;
+}
