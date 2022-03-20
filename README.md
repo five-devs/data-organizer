@@ -39,7 +39,7 @@
     <a href="https://github.com/five-devs/data-organizer"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/five-devs/data-organizer">View Demo</a>
+    <a href="https://data-organizer.netlify.app">View Demo</a>
     ·
     <a href="https://github.com/five-devs/data-organizer/issues">Report Bug</a>
     ·
