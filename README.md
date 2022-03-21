@@ -162,7 +162,7 @@ Project Link: [https://github.com/five-devs/data-organizer](https://github.com/f
 
 ## Acknowledgments
 
-This project was originally conceptualized during the first 100devs hackathon. Please check out each of our group members on twitter! [@BrianSchneeDev][@CodeThinh][@jacksonddeal][@Elisa00139026][@AlexOde]
+This project was originally conceptualized during the first 100devs hackathon. Please check out each of our group members on twitter! [@BrianSchneeDev](https://twitter.com/BrianSchneeDev)[@CodeThinh](https://twitter.com/CodeThinh)[@jacksonddeal](https://twitter.com/jacksonddeal)[@Elisa00139026](https://twitter.com/Elisa00139026)[@AlexOdegaard](https://twitter.com/AlexOdegaard)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
