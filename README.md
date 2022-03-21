@@ -81,7 +81,7 @@ This project is by the 100devs community, for the 100devs community and we'd lov
 
 ## Getting Started
 
-Simply visit: [data-organizer.netlify.app](data-organizer.netlify.app) and start tracking your homework progress. If you would like to help us out, feel free to create issues through our github repo and/or make your own contributions.
+Simply visit: [data-organizer.netlify.app](https://data-organizer.netlify.app) and start tracking your homework progress. If you would like to help us out, feel free to create issues through our github repo and/or make your own contributions.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
