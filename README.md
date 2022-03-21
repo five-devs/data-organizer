@@ -1,22 +1,6 @@
 # data-organizer
 
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -79,7 +63,9 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Hey, glad you found us. We’ve set out on the noble quest to make a compiler for the mountains of homework our fearless leader Leon assigns us. Though daunting, our goal is to set up a discord bot that finds all the assignments and places them in an environment where they are easy to access and less formidable to keep track of. Along the way we had several additional ideas that would make fun additions to our little project, a button that lets you know when Leon is live, a space for links that can be a little hard to get your hands on and much more.
+Hey, glad you found us. We’ve set out on the noble quest to make a compiler for the mountains of homework our fearless leader Leon assigns us. Though daunting, our goal is to set up a discord bot that finds all the assignments and places them in an environment where they are easy to access and less formidable to keep track of. Along the way we had several additional ideas that would make fun additions to our little project, a button that lets you know when Leon is live, a space for links that can be a little hard to get your hands on and much more. 
+
+This project is by the 100devs community, for the 100devs community and we'd love if you helped contribute to this project!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -95,8 +81,7 @@ Hey, glad you found us. We’ve set out on the noble quest to make a compiler fo
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Simply visit: [data-organizer.netlify.app](data-organizer.netlify.app) and start tracking your homework progress. If you would like to help us out, feel free to create issues through our github repo and/or make your own contributions.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -104,9 +89,9 @@ To get a local copy up and running follow these simple example steps.
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This web app is used to track homework progress for the [100devs](https://leonnoel.com/100devs/) cohort. We actively organize the homework assignments and all you need to do is visit our site and keep track of what assignments you need or have completed. We wanted to make it easier to track your assignment progress and we hope you enjoy this project as much as we've enjoyed making it!
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -162,7 +147,13 @@ Project Link: [https://github.com/five-devs/data-organizer](https://github.com/f
 
 ## Acknowledgments
 
-This project was originally conceptualized during the first 100devs hackathon. Please check out each of our group members on twitter! [@BrianSchneeDev](https://twitter.com/BrianSchneeDev)[@CodeThinh](https://twitter.com/CodeThinh)[@jacksonddeal](https://twitter.com/jacksonddeal)[@Elisa00139026](https://twitter.com/Elisa00139026)[@AlexOdegaard](https://twitter.com/AlexOdegaard)
+This project was originally conceptualized during the first 100devs hackathon. Please check out each of our group members on twitter!
+
+- [@BrianSchneeDev](https://twitter.com/BrianSchneeDev)
+- [@CodeThinh](https://twitter.com/CodeThinh)
+- [@jacksonddeal](https://twitter.com/jacksonddeal)
+- [@Elisa00139026](https://twitter.com/Elisa00139026)
+- [@AlexOdegaard](https://twitter.com/AlexOdegaard)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
