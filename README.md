@@ -77,11 +77,9 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 Hey, glad you found us. We’ve set out on the noble quest to make a compiler for the mountains of homework our fearless leader Leon assigns us. Though daunting, our goal is to set up a discord bot that finds all the assignments and places them in an environment where they are easy to access and less formidable to keep track of. Along the way we had several additional ideas that would make fun additions to our little project, a button that lets you know when Leon is live, a space for links that can be a little hard to get your hands on and much more.
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `five-devs`, `data-organizer`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -116,10 +114,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-  - [ ] Nested Feature
+- [ ] Add search bar functionality for finding classes.
+- [ ] Cache "checkbox selected" locally.
+- [ ] Add a discord bot that is able to read and organize data from a discord channel.
+- [ ] Make blinking light next to header logo respond to Leon's livestreams.
 
 See the [open issues](https://github.com/five-devs/data-organizer/issues) for a full list of proposed features (and known issues).
 
@@ -154,7 +152,7 @@ Distributed under the MIT License. See <a href="./LICENSE">`LICENSE.txt`</a> for
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Brian Schnee - [@BrianSchneeDev](https://twitter.com/BrianSchneeDev)
 
 Project Link: [https://github.com/five-devs/data-organizer](https://github.com/five-devs/data-organizer)
 
@@ -164,9 +162,7 @@ Project Link: [https://github.com/five-devs/data-organizer](https://github.com/f
 
 ## Acknowledgments
 
-- []()
-- []()
-- []()
+This project was originally conceptualized during the first 100devs hackathon. Please check out each of our group members on twitter! [@BrianSchneeDev][@CodeThinh][@jacksonddeal][@Elisa00139026][@AlexOde]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
