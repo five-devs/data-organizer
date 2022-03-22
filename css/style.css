@@ -1,20 +1,20 @@
 /* Box Model Hack */
 * {
-     box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Clear fix hack */
 .clearfix:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-    clear: both;
+  clear: both;
 }
 
 /*
@@ -26,7 +26,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -41,8 +41,13 @@ h2 {
   font-weight: 500;
 }
 
+
 li {
   padding: .3rem;
+
+.hide {
+  display: none;
+
 }
 
 /*
@@ -55,11 +60,11 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+
   background: #76c2eb;
-  
-  padding: .5rem;
-  border-bottom: .2rem solid #4e91bd;
+
+  padding: 0.5rem;
+  border-bottom: 0.2rem solid #4e91bd;
 }
 
 /* this allows everything to be centered within the header, its more dynamic for when new things are added */
@@ -82,6 +87,7 @@ li {
 }
 
 .class {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,6 +103,19 @@ li {
     border-radius: .5rem;
 }
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 45%;
+
+  background: #c7ffc8;
+  margin: 2rem;
+  padding: 1rem 1rem 1rem 2rem;
+
+
+  border: 0.2rem solid #8eca8f;
+  border-radius: 0.5rem;
+}
 
 /*
   ================== Additional Styles ==================
@@ -105,22 +124,42 @@ li {
 /* ----------------- header ----------------- */
 
 /* - - - - - - left section - - - - - */
-#discord {
-  width: 3.5rem;
-  margin-right: 1rem;
+.discord-icon {
+  color: white;
+  font-size: 3.5rem;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
 }
 
 .discord-link {
   display: flex;
   align-items: center;
   color: black;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.discord-link:hover,
+.discord-icon:hover {
+  color: #4e91bd;
+}
+
+.discord-icon > span {
+  font-size: 0.3em;
+}
+
+@media all and (max-width: 576px) {
+  .discord-icon > span {
+    display: none;
+  }
 }
 
 /* - - - - - - middle section - - - - - */
 
-.live-button {
-  width: .7rem;
-  height: .7rem;
+#live-button {
+  width: 0.7rem;
+  height: 0.7rem;
   border-radius: 50%;
   background: red;
   animation: blink 1s ease infinite;
@@ -139,36 +178,51 @@ li {
 
 #search {
   padding: 1rem;
-  border: .2rem solid #4e91bd;
+  border: 0.2rem solid #4e91bd;
   width: 60%;
 }
 
-
 /* ----------------- main ----------------- */
-
 
 /* - - - - - - video - - - - - - */
 
 .video {
+
     border-radius: .5rem;
     padding: 1rem;
     width: 20rem;
     height: 15rem;
+
+  border-radius: 0.5rem;
+
 }
 
+@media all and (max-width: 576px) {
+  .class {
+    flex-direction: column;
+  }
+}
 
 /* - - - - - - homework - - - - - - */
 .homework-container {
+
     padding: 1.5rem;
+
+  padding: 2rem;
+
 }
 
 .class-title {
-    font-size: 2rem;
-    margin-bottom: .5rem;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
 .assignment-list {
+
     font-size: 1.5rem;
     
+
+  font-size: 1.5rem;
+
 }
 
 .due {
@@ -177,18 +231,19 @@ li {
 
 .due-date {
   display: inline-block;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
-
 
 /* ----------------- footer ----------------- */
 
 .primary-footer {
+  width: 100vw;
   font-size: 1.2rem;
   text-align: center;
-  
+
   padding: 1rem 0;
 }
+
 /* ------- media queries */
 @media only screen and (max-width: 1070px) {
   .homework-container {
@@ -281,3 +336,5 @@ li {
   min-width: fit-content;
 }
 }
+
+
