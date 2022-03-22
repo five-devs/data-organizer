@@ -41,13 +41,8 @@ h2 {
   font-weight: 500;
 }
 
-
-li {
-  padding: .3rem;
-
 .hide {
   display: none;
-
 }
 
 /*
@@ -80,29 +75,12 @@ li {
 .main-content {
   display: flex;
   justify-content: center;
-  flex-wrap:wrap-reverse;
-  flex-direction: row-reverse;
+  flex-wrap: wrap;
   width: 100%;
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 .class {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row-reverse;
-    flex-basis: 45%;
-    width: fit-content;
-    max-width: 500px;
-    background: #c7ffc8;
-    margin: 2rem;
-    padding: 1rem 1rem 1rem 2rem;
-  
-    border: .2rem solid #8eca8f;
-    border-radius: .5rem;
-}
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,7 +89,6 @@ li {
   background: #c7ffc8;
   margin: 2rem;
   padding: 1rem 1rem 1rem 2rem;
-
 
   border: 0.2rem solid #8eca8f;
   border-radius: 0.5rem;
@@ -187,14 +164,7 @@ li {
 /* - - - - - - video - - - - - - */
 
 .video {
-
-    border-radius: .5rem;
-    padding: 1rem;
-    width: 20rem;
-    height: 15rem;
-
   border-radius: 0.5rem;
-
 }
 
 @media all and (max-width: 576px) {
@@ -205,11 +175,7 @@ li {
 
 /* - - - - - - homework - - - - - - */
 .homework-container {
-
-    padding: 1.5rem;
-
   padding: 2rem;
-
 }
 
 .class-title {
@@ -217,12 +183,7 @@ li {
   margin-bottom: 0.5rem;
 }
 .assignment-list {
-
-    font-size: 1.5rem;
-    
-
   font-size: 1.5rem;
-
 }
 
 .due {
@@ -243,98 +204,3 @@ li {
 
   padding: 1rem 0;
 }
-
-/* ------- media queries */
-@media only screen and (max-width: 1070px) {
-  .homework-container {
-    padding: 1rem;
-}
-
-.class-title {
-    font-size: 1.5rem;
-    margin-bottom: .4rem;
-}
-.assignment-list {
-    font-size: 1.3rem;
-    
-}
-
-.due {
-  font-size: 1.2rem;
-}
-
-.due-date {
-  display: inline-block;
-  margin-bottom: .4rem;
-}
-.class {
-  min-width: 200px;
-}
-}
-@media only screen and (max-width: 980px) {
-  .homework-container {
-    padding: .5rem;
-}
-
-.class-title {
-    font-size: 1.5rem;
-    margin-bottom: .4rem;
-}
-.assignment-list {
-    font-size: 1.2rem;
-    
-}
-
-.due {
-  font-size: 1.6rem;
-}
-
-.due-date {
-  display: inline-block;
-  margin-bottom: .4rem;
-}
-.class {
-  max-width: fit-content;
-  min-width: 200px;
-}
-.video {
-  border-radius: .5rem;
-  padding: .75rem;
-  width: 15rem;
-  height: 10rem;
-}
-}
-@media only screen and (max-width: 840px) {
-  .homework-container {
-    padding: .5rem;
-}
-
-.class-title {
-    font-size: 2rem;
-    margin-bottom: .4rem;
-}
-.assignment-list {
-    font-size: 1.5rem;
-    
-}
-
-.due {
-  font-size: 2rem;
-}
-
-.due-date {
-  display: inline-block;
-  margin-bottom: .4rem;
-}
-.video {
-  border-radius: .5rem;
-  padding: .75rem;
-  width: 25rem;
-  height: 20rem;
-}
-.class {
-  min-width: fit-content;
-}
-}
-
-
