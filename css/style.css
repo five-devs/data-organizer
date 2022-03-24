@@ -1,20 +1,20 @@
 /* Box Model Hack */
 * {
-  box-sizing: border-box;
+     box-sizing: border-box;
 }
 
 /* Clear fix hack */
 .clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
 }
 
 .clear {
-  clear: both;
+    clear: both;
 }
 
 /*
@@ -26,7 +26,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -41,8 +41,8 @@ h2 {
   font-weight: 500;
 }
 
-.hide {
-  display: none;
+li {
+  padding: .3rem;
 }
 
 /*
@@ -55,11 +55,11 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  
   background: #76c2eb;
-
-  padding: 0.5rem;
-  border-bottom: 0.2rem solid #4e91bd;
+  
+  padding: .5rem;
+  border-bottom: .2rem solid #4e91bd;
 }
 
 /* this allows everything to be centered within the header, its more dynamic for when new things are added */
@@ -75,24 +75,28 @@ h2 {
 .main-content {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap:wrap-reverse;
+  flex-direction: row-reverse;
   width: 100%;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .class {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-basis: 45%;
-
-  background: #c7ffc8;
-  margin: 2rem;
-  padding: 1rem 1rem 1rem 2rem;
-
-  border: 0.2rem solid #8eca8f;
-  border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-basis: 45%;
+    width: fit-content;
+    max-width: 500px;
+    background: #c7ffc8;
+    margin: 2rem;
+    padding: 1rem 1rem 1rem 2rem;
+  
+    border: .2rem solid #8eca8f;
+    border-radius: .5rem;
 }
+
 
 /*
   ================== Additional Styles ==================
@@ -101,42 +105,22 @@ h2 {
 /* ----------------- header ----------------- */
 
 /* - - - - - - left section - - - - - */
-.discord-icon {
-  color: white;
-  font-size: 3.5rem;
-  transition: 0.3s;
-  display: flex;
-  align-items: center;
+#discord {
+  width: 3.5rem;
+  margin-right: 1rem;
 }
 
 .discord-link {
   display: flex;
   align-items: center;
   color: black;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.discord-link:hover,
-.discord-icon:hover {
-  color: #4e91bd;
-}
-
-.discord-icon > span {
-  font-size: 0.3em;
-}
-
-@media all and (max-width: 576px) {
-  .discord-icon > span {
-    display: none;
-  }
 }
 
 /* - - - - - - middle section - - - - - */
 
-#live-button {
-  width: 0.7rem;
-  height: 0.7rem;
+.live-button {
+  width: .7rem;
+  height: .7rem;
   border-radius: 50%;
   background: red;
   animation: blink 1s ease infinite;
@@ -155,35 +139,36 @@ h2 {
 
 #search {
   padding: 1rem;
-  border: 0.2rem solid #4e91bd;
+  border: .2rem solid #4e91bd;
   width: 60%;
 }
 
+
 /* ----------------- main ----------------- */
+
 
 /* - - - - - - video - - - - - - */
 
 .video {
-  border-radius: 0.5rem;
+    border-radius: .5rem;
+    padding: 1rem;
+    width: 20rem;
+    height: 15rem;
 }
 
-@media all and (max-width: 576px) {
-  .class {
-    flex-direction: column;
-  }
-}
 
 /* - - - - - - homework - - - - - - */
 .homework-container {
-  padding: 2rem;
+    padding: 1.5rem;
 }
 
 .class-title {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
+    font-size: 2rem;
+    margin-bottom: .5rem;
 }
 .assignment-list {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
+    
 }
 
 .due {
@@ -192,15 +177,107 @@ h2 {
 
 .due-date {
   display: inline-block;
-  margin-bottom: 0.5rem;
+  margin-bottom: .5rem;
 }
+
 
 /* ----------------- footer ----------------- */
 
 .primary-footer {
-  width: 100vw;
   font-size: 1.2rem;
   text-align: center;
-
+  
   padding: 1rem 0;
+}
+/* ------- media queries */
+@media only screen and (max-width: 1070px) {
+  .homework-container {
+    padding: 1rem;
+}
+
+.class-title {
+    font-size: 1.5rem;
+    margin-bottom: .4rem;
+}
+.assignment-list {
+    font-size: 1.3rem;
+    
+}
+
+.due {
+  font-size: 1.2rem;
+}
+
+.due-date {
+  display: inline-block;
+  margin-bottom: .4rem;
+}
+.class {
+  min-width: 200px;
+}
+}
+@media only screen and (max-width: 980px) {
+  .homework-container {
+    padding: .5rem;
+}
+
+.class-title {
+    font-size: 1.5rem;
+    margin-bottom: .4rem;
+}
+.assignment-list {
+    font-size: 1.2rem;
+    
+}
+
+.due {
+  font-size: 1.6rem;
+}
+
+.due-date {
+  display: inline-block;
+  margin-bottom: .4rem;
+}
+.class {
+  max-width: fit-content;
+  min-width: 200px;
+}
+.video {
+  border-radius: .5rem;
+  padding: .75rem;
+  width: 15rem;
+  height: 10rem;
+}
+}
+@media only screen and (max-width: 840px) {
+  .homework-container {
+    padding: .5rem;
+}
+
+.class-title {
+    font-size: 2rem;
+    margin-bottom: .4rem;
+}
+.assignment-list {
+    font-size: 1.5rem;
+    
+}
+
+.due {
+  font-size: 2rem;
+}
+
+.due-date {
+  display: inline-block;
+  margin-bottom: .4rem;
+}
+.video {
+  border-radius: .5rem;
+  padding: .75rem;
+  width: 25rem;
+  height: 20rem;
+}
+.class {
+  min-width: fit-content;
+}
 }
