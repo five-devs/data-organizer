@@ -4,15 +4,12 @@ const searchInput = document.querySelector("[data-search]")
 
 let classes = []
 
-
-// search working / filtering
-
 searchInput.addEventListener("input", search => {
   const value = search.target.value.toLowerCase();
   classes.forEach(cls => {
     const isVisible =
       cls.title.toLowerCase().includes(value) ||
-      cls.due.toLowerCase().includes(value)
+      cls.due.toLowerCase().includes(value);
     cls.element.classList.toggle("hide", !isVisible);
   })
 })
@@ -58,8 +55,8 @@ fetch("../js/classes.json")
       desc4.innerHTML = cls.desc4;
       desc5.innerHTML = cls.desc5;
       desc6.innerHTML = cls.desc6;
-    // need to set parent Li to add class "hide" if child is falsey
-      clsCardContainer.append(card)
+      clsCardContainer.append(card);
+      console.log(cls.due)
       return { title: cls.title, due: cls.due, element: card }
     })
   })
